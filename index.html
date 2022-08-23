@@ -104,61 +104,50 @@
                          </div>
                        </div>
                    </div>
-                   
+                    <!-- Player-7 -->
+                   <div class="w-full bg-black text-white border-2 border-gray-800 shadow-xl">
+                       <figure><img class="h-44 w-full" src="images/Marco Verratti.jpg"/></figure>
+                       <div class="card-body text-center">
+                         <h2 class="font-medium text-xl">Marco Verratti</h2>
+                         <p>03 Goals . 07 Assist</p>
+                         <div class="justify-center mt-6">
+                           <button class="btn btn-block bg-indigo-900" onclick="addToTable(this); disabled = true">Select</button>
+                         </div>
+                       </div>
+                   </div>
+
+                    <!-- Player-8 -->
+                   <div class="w-full bg-black text-white border-2 border-gray-800 shadow-xl">
+                       <figure><img class="h-44 w-full" src="images/Gianluigi Donnarumma.jpg"/></figure>
+                       <div class="card-body text-center">
+                         <h2 class="font-medium text-xl">Gianluigi</h2>
+                         <p>7 Conceded </p>
+                         <div class="justify-center mt-6">
+                           <button class="btn btn-block bg-indigo-900" onclick="addToTable(this); disabled = true">Select</button>
+                         </div>
+                       </div>
+                   </div>
+
+                    <!-- Player-9 -->
+                   <div class="w-full bg-black text-white border-2 border-gray-800 shadow-xl">
+                       <figure><img class="h-44 w-full" src="images/Presnel Kimpembe.jpg" /></figure>
+                       <div class="card-body text-center">
+                         <h2 class="font-medium text-xl">Presnel Kimpembe</h2>
+                         <p>15 Goals . 21 Assist</p>
+                         <div class="justify-center mt-6">
+                           <button class="btn btn-block bg-indigo-900" onclick="addToTable(this); disabled = true">Select</button>
+                         </div>
+                       </div>
+                   </div>
                    
                    
                </div>
            </div>
           
-           <div>
-              <!-- Selected player list -->
-             <div class="w-full h-96 mb-4 p-4 bg-black text-white border-2 border-gray-800 shadow-xl">
-               <h2 class="font-medium text-center text-xl mb-6">Selected - V</h2>
-               <div class="overflow-x-auto bg-black">
-                 <ul class="text-white text-lg font-medium w-full" id="list-body">
-                   <!-- <li></li> -->
-                 </ul>
-               </div>
-             </div>
-             <!-- calculation Part-->
-             <div class="w-full mb-4 p-4 bg-black text-white border-2 border-gray-800 shadow-xl">
-               <h2 class="font-medium text-center mb-4 text-xl">Budget</h2>
-
-               <!-- Player Expenses -->
-               <div class="space-x-6">
-                 <p class="inline-block">Per Player </p>
-                 <input id = "players-expenses" type="text" placeholder=" " class="input w-1/2 bg-black border-2 border-gray-800" />
-               </div>
-               <div class="justify-center my-4">
-                 <button class="btn btn-block bg-indigo-900" id="player-calculator">Calculate</button>
-               </div>
-               <p>Player Expenses <span id="player-total-cost" class="text-amber-500">00</span> </p>
-
-               <!-- Manager & Coach Expenses -->
-               <div class="my-4 space-x-7">
-                 <p class="inline">Manager </p>
-                 <input id="manager-expenses" type="text" placeholder=" " class="input w-1/2 bg-black border-2 border-gray-800" />
-               </div>
-               <div class="space-x-12">
-                 <p class="inline-block">Coach </p>
-                 <input id="coach-expenses" type="text" placeholder=" " class="input w-1/2 bg-black border-2 border-gray-800" />
-               </div>
-               <!-- Total calculation -->
-               <div class="justify-center my-4">
-                 <button class="btn btn-block bg-indigo-900" id="total-calculator">Calculate Total</button>
-               </div>
-               <div class="space-x-16">
-                 <p class="inline">Total</p>
-                 <p class="inline text-amber-500">$<span id="total-club-cost"> 00</span></p>
-               </div>
-               
-             </div>
-           </div>
-           
+         
        </div>
    </section>
 </main>
-   
 
 <script src="js/players.js"></script> 
 <script src="js/calculator.js"></script>
